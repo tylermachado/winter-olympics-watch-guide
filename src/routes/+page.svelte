@@ -18,6 +18,20 @@
     matchdays.set(data.matchdays);
   }
 
+  // Update observed elements when filtered matchdays change
+  $: if (observer && $filteredMatchdays.length > 0) {
+    // Disconnect all current observations
+    observer.disconnect();
+    
+    // Observe all currently visible (filtered) matchdays
+    $filteredMatchdays.forEach((matchday) => {
+      const element = document.getElementById(matchday.id);
+      if (element && observer) {
+        observer.observe(element);
+      }
+    });
+  }
+
   onMount(() => {
     observer = new IntersectionObserver(
       (entries) => {
@@ -45,13 +59,6 @@
         threshold: Array.from({ length: 101 }, (_, i) => i / 100)
       }
     );
-
-    data.matchdays.forEach((matchday) => {
-      const element = document.getElementById(matchday.id);
-      if (element && observer) {
-        observer.observe(element);
-      }
-    });
   });
 
   onDestroy(() => {
@@ -86,6 +93,10 @@
         isScrolling = false;
         scrollTimeout = null;
       }, 1000);
+    } else {
+      // Element doesn't exist (likely filtered out), but still set activeDate
+      // so the UI can reflect the selection
+      activeDate.set(id);
     }
   }
 </script>
