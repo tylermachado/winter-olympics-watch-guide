@@ -115,42 +115,42 @@
     .event {
       display: flex;
       flex-direction: column;
-      align-items: center; /* Center all content horizontally */
-      text-align: center; /* Center text */
+      align-items: center;
+      text-align: center;
     }
 
     .start-time {
       width: auto;
       padding: 0.5rem 0;
       background-color: transparent;
-      text-align: center; /* Center time text */
+      text-align: center;
     }
 
     .event-content {
       padding: 0 0.75rem 0.75rem 0.75rem;
       display: flex;
       flex-direction: column;
-      align-items: center; /* Center content horizontally */
+      align-items: center;
     }
 
     .event-header {
       padding: 0.75rem 0;
       display: flex;
-      justify-content: center; /* Center pills horizontally */
-      align-items: center; /* Center pills vertically */
+      justify-content: center;
+      align-items: center;
     }
 
     .pills {
-      justify-content: center; /* Center pills horizontally */
-      align-items: center; /* Center pills vertically */
-      gap: 0.25rem; /* Reduce gap between pills */
+      justify-content: center;
+      align-items: center;
+      gap: 0.25rem;
     }
 
     .event-details {
       gap: 0.5rem;
       display: flex;
       flex-direction: column;
-      align-items: center; /* Center details horizontally */
+      align-items: center;
     }
   }
 </style>

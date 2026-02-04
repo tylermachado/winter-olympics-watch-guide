@@ -5,6 +5,8 @@
 	import Footer from '$lib/Footer.svelte';
 
 	let { children } = $props();
+
+	const year = new Date().getFullYear();
 </script>
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>

@@ -17,7 +17,7 @@ export interface Event {
 
 export interface Matchday {
   date: string;
-  shortDate: string;
+  short_date: string;
   events: Event[];
   id: string;
 }

@@ -12,7 +12,7 @@
 <nav class="sticky-nav">
   <div class="nav-container">
     {#each matchdays as matchday}
-      {@const parts = matchday.shortDate.split(' ')}
+      {@const parts = matchday.short_date.split(' ')}
       {@const isDisabled = !availableMatchdays.has(matchday.id)}
       <button 
         class:active={activeDate === matchday.id} 
@@ -52,7 +52,7 @@
     border: none;
     padding: 0.75rem 1.5rem;
     cursor: pointer;
-    color: oklch(0.54 0.15 210);
+    color: var(--color-primary-500);
     white-space: nowrap;
     display: flex;
     flex-direction: column;
@@ -63,8 +63,8 @@
   }
 
   .sticky-nav button.disabled {
-    background: oklch(0.9 0.02 210);
-    color: oklch(0.7 0.02 210);
+    background: var(--color-primary-50);
+    color: var(--color-gray-500);
     cursor: not-allowed;
   }
 
@@ -80,11 +80,11 @@
   }
 
   .sticky-nav button.active {
-    background: oklch(0.46 0.14 210);
+    background: var(--color-primary-600);
     color: white;
   }
 
   .sticky-nav button:hover:not(.active):not(.disabled) {
-    background: oklch(0.95 0.02 210);
+    background: var(--color-primary-100);
   }
 </style>
