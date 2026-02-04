@@ -38,33 +38,3 @@ export const filteredMatchdays = derived([matchdays, filters], ([$matchdays, $fi
     };
   }).filter(matchday => matchday.events.length > 0);
 });
-
-export async function loadMatchdays() {
-  const response = await fetch('/data/schedule.json');
-  const data: Event[] = await response.json();
-
-  const groupedEvents = data.reduce((acc: Record<string, Event[]>, event: Event) => {
-    if (!acc[event.date]) {
-      acc[event.date] = [];
-    }
-    acc[event.date].push(event);
-    return acc;
-  }, {});
-
-  const allMatchdays = Object.entries(groupedEvents).map(([date, events]) => {
-    const dateObj = new Date(date);
-    const dayOfWeek = new Intl.DateTimeFormat('en-US', { weekday: 'long' }).format(dateObj);
-    const shortDayOfWeek = new Intl.DateTimeFormat('en-US', { weekday: 'short' }).format(dateObj).toUpperCase();
-    const shortMonth = new Intl.DateTimeFormat('en-US', { month: 'short' }).format(dateObj).toUpperCase();
-    const day = dateObj.getDate();
-    return { 
-      date: `${dayOfWeek}, ${date.split(', ')[0]}`, 
-      short_date: `${shortDayOfWeek} ${shortMonth} ${day}`, 
-      events, 
-      id: date 
-    };
-  });
-
-  matchdays.set(allMatchdays);
-  return allMatchdays;
-}
