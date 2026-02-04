@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
+  import { onMount, onDestroy } from 'svelte';
   import Matchday from '$lib/Matchday.svelte';
   import StickyNav from '$lib/StickyNav.svelte';
   import { page } from '$app/stores';
@@ -11,6 +11,7 @@
 
   let matchdays = writable<MatchdayType[]>([]);
   let activeDate = '';
+  let observer: IntersectionObserver | null = null;
 
   // Derive filters directly from URL
   let filters = derived(page, ($page) => ({
@@ -21,33 +22,27 @@
   }));
 
   // Filtered matchdays based on current filters
-  let filteredMatchdays = derived([matchdays, page], ([$matchdays, $page]) => {
-    const currentFilters = {
-      sport: $page.url.searchParams.get('sport') || null,
-      liveOnly: $page.url.searchParams.get('live') === 'true',
-      goldMedalOnly: $page.url.searchParams.get('gold') === 'true',
-      usaOnly: $page.url.searchParams.get('usa') === 'true'
-    };
+  let filteredMatchdays = derived([matchdays, filters], ([$matchdays, $filters]) => {
 
     return $matchdays.map(matchday => {
       const filteredEvents = matchday.events.filter((event: Event) => {
         // Apply sport filter (case-insensitive)
-        if (currentFilters.sport && event.sport.toUpperCase() !== currentFilters.sport.toUpperCase()) {
+        if ($filters.sport && event.sport.toUpperCase() !== $filters.sport.toUpperCase()) {
           return false;
         }
         
         // Apply live only filter
-        if (currentFilters.liveOnly && !event.is_live) {
+        if ($filters.liveOnly && !event.is_live) {
           return false;
         }
         
         // Apply gold medal only filter - check is_medal_event field
-        if (currentFilters.goldMedalOnly && !event.is_medal_event) {
+        if ($filters.goldMedalOnly && !event.is_medal_event) {
           return false;
         }
         
         // Apply USA only filter - check for "United States"
-        if (currentFilters.usaOnly) {
+        if ($filters.usaOnly) {
           if (!event.teams || (event.teams.team1 !== 'United States' && event.teams.team2 !== 'United States')) {
             return false;
           }
@@ -91,7 +86,7 @@
 
     matchdays.set(allMatchdays);
 
-    const observer = new IntersectionObserver(
+    observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
@@ -105,9 +100,15 @@
     allMatchdays.forEach((matchday) => {
       const element = document.getElementById(matchday.id);
       if (element) {
-        observer.observe(element);
+        observer!.observe(element);
       }
     });
+  });
+
+  onDestroy(() => {
+    if (observer) {
+      observer.disconnect();
+    }
   });
 
   function scrollToDate(id: string) {
