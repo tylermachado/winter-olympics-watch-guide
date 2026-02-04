@@ -2,12 +2,13 @@ import { derived } from 'svelte/store';
 import { page } from '$app/stores';
 import { goto } from '$app/navigation';
 import { get } from 'svelte/store';
+import { browser } from '$app/environment';
 
 export const filters = derived(page, ($page) => ({
-  sport: $page.url.searchParams.get('sport') || null,
-  liveOnly: $page.url.searchParams.get('live') === 'true',
-  goldMedalOnly: $page.url.searchParams.get('gold') === 'true',
-  usaOnly: $page.url.searchParams.get('usa') === 'true'
+  sport: browser ? $page.url.searchParams.get('sport') || null : null,
+  liveOnly: browser ? $page.url.searchParams.get('live') === 'true' : false,
+  goldMedalOnly: browser ? $page.url.searchParams.get('gold') === 'true' : false,
+  usaOnly: browser ? $page.url.searchParams.get('usa') === 'true' : false
 }));
 
 export function updateFilter(key: string, value: string | boolean) {
