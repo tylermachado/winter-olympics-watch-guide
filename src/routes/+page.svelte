@@ -1,12 +1,15 @@
-<script>
+<script lang="ts">
   import { onMount } from 'svelte';
   import Matchday from '$lib/Matchday.svelte';
   import StickyNav from '$lib/StickyNav.svelte';
   import { page } from '$app/stores';
   import { goto } from '$app/navigation';
   import { derived, writable } from 'svelte/store';
+  import type { Event, Matchday as MatchdayType } from '$lib/types';
 
-  let matchdays = writable([]);
+  type ExtendedEvent = Event & { [key: string]: any };
+
+  let matchdays = writable<MatchdayType[]>([]);
   let activeDate = '';
 
   // Derive filters directly from URL
@@ -27,7 +30,7 @@
     };
 
     return $matchdays.map(matchday => {
-      const filteredEvents = matchday.events.filter(event => {
+      const filteredEvents = matchday.events.filter((event: Event) => {
         // Apply sport filter (case-insensitive)
         if (currentFilters.sport && event.sport.toUpperCase() !== currentFilters.sport.toUpperCase()) {
           return false;
@@ -62,9 +65,9 @@
 
   onMount(async () => {
     const response = await fetch('/data/schedule.json');
-    const data = await response.json();
+    const data: Event[] = await response.json();
 
-    const groupedEvents = data.reduce((acc, event) => {
+    const groupedEvents = data.reduce((acc: Record<string, Event[]>, event: Event) => {
       if (!acc[event.date]) {
         acc[event.date] = [];
       }
@@ -107,23 +110,12 @@
     });
   });
 
-  function scrollToDate(id) {
+  function scrollToDate(id: string) {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
       activeDate = id;
     }
-  }
-
-  // Update URL to change filters
-  function updateFilter(key, value) {
-    const params = new URLSearchParams($page.url.searchParams);
-    if (value) {
-      params.set(key, value);
-    } else {
-      params.delete(key);
-    }
-    goto(`?${params.toString()}`, { replaceState: true, noScroll: true });
   }
 </script>
 
@@ -136,44 +128,3 @@
 </section>
 
 <StickyNav matchdays={$matchdays} {activeDate} {scrollToDate} filteredMatchdays={$filteredMatchdays} />
-
-<style>
-  .sticky-nav {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: white;
-    display: flex;
-    overflow-x: auto;
-    padding: 1rem 0;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-  }
-
-  .nav-container {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 1rem;
-    padding: 0 1rem;
-  }
-
-  .sticky-nav button {
-    background: none;
-    border: none;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    font-size: 1rem;
-    color: oklch(0.54 0.15 210);
-    white-space: nowrap;
-  }
-
-  .sticky-nav button.active {
-    font-weight: bold;
-    color: oklch(0.46 0.14 210);
-    text-decoration: underline;
-  }
-
-  .sticky-nav button:hover {
-    text-decoration: underline;
-  }
-</style>

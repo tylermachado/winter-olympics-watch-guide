@@ -1,11 +1,13 @@
-<script>
+<script lang="ts">
+  import type { Team } from './types';
+
   export let startTime = '';
   export let sport = '';
   export let event = '';
   export let isLive = false;
   export let isReplay = false;
   export let broadcaster = '';
-  export let teams = /** @type {{team1: string, team2: string} | undefined} */ (undefined);
+  export let teams: Team | undefined = undefined;
   
   // Create display name with teams if available
   // Skip teams if they contain underscores (placeholder for unknown teams)
@@ -38,14 +40,14 @@
   .event {
     display: flex;
     align-items: stretch;
-    border: 1px solid var(--color-primary-300);
+    border: 1px solid var(--color-primary-200);
     overflow: hidden;
   }
 
   .start-time {
     font-weight: bold;
     padding: 1rem;
-    background-color: var(--color-primary-200);
+    background-color: var(--color-primary-100);
     width: 7rem;
     flex-shrink: 0;
     display: flex;

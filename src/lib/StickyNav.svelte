@@ -1,8 +1,10 @@
-<script>
-  export let matchdays = [];
-  export let activeDate = '';
-  export let scrollToDate = () => {};
-  export let filteredMatchdays = [];
+<script lang="ts">
+  import type { Matchday } from './types';
+
+  export let matchdays: Matchday[] = [];
+  export let activeDate: string = '';
+  export let scrollToDate: (id: string) => void = () => {};
+  export let filteredMatchdays: Matchday[] = [];
 
   $: availableMatchdays = new Set(filteredMatchdays.map(matchday => matchday.id));
 </script>

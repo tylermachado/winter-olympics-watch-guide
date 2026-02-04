@@ -1,7 +1,9 @@
-<script>
+<script lang="ts">
   import Event from './Event.svelte';
+  import type { Event as EventType } from './types';
+
   export let date = '';
-  export let events = /** @type {Array<{start_time: string, sport: string, event: string, is_live: boolean, is_replay: boolean, broadcaster: string, teams?: {team1: string, team2: string}}>} */ ([]);
+  export let events: EventType[] = [];
 </script>
 
 <div class="matchday">
