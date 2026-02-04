@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { Team } from './types';
+  import { convertEasternToLocal } from './utils/timezoneConverter';
 
   export let startTime = '';
   export let sport = '';
@@ -14,10 +15,13 @@
   $: displayEvent = teams && !teams.team1.includes('_') && !teams.team2.includes('_')
     ? `${event} (${teams.team1} vs ${teams.team2})`.trim()
     : event;
+
+  // Convert Eastern time to local time
+  $: displayTime = convertEasternToLocal(startTime);
 </script>
 
 <div class="event">
-  <div class="start-time">{startTime}</div>
+  <div class="start-time">{displayTime}</div>
   <div class="event-content">
     <div class="event-header">
       <div class="pills">
