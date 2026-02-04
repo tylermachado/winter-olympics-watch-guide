@@ -1,9 +1,63 @@
 <script>
   import { onMount } from 'svelte';
   import Matchday from '$lib/Matchday.svelte';
+  import { page } from '$app/stores';
+  import { goto } from '$app/navigation';
+  import { derived, writable } from 'svelte/store';
 
-  let matchdays = [];
+  let matchdays = writable([]);
   let activeDate = '';
+
+  // Derive filters directly from URL
+  let filters = derived(page, ($page) => ({
+    sport: $page.url.searchParams.get('sport') || null,
+    liveOnly: $page.url.searchParams.get('live') === 'true',
+    goldMedalOnly: $page.url.searchParams.get('gold') === 'true',
+    usaOnly: $page.url.searchParams.get('usa') === 'true'
+  }));
+
+  // Filtered matchdays based on current filters
+  let filteredMatchdays = derived([matchdays, page], ([$matchdays, $page]) => {
+    const currentFilters = {
+      sport: $page.url.searchParams.get('sport') || null,
+      liveOnly: $page.url.searchParams.get('live') === 'true',
+      goldMedalOnly: $page.url.searchParams.get('gold') === 'true',
+      usaOnly: $page.url.searchParams.get('usa') === 'true'
+    };
+
+    return $matchdays.map(matchday => {
+      const filteredEvents = matchday.events.filter(event => {
+        // Apply sport filter (case-insensitive)
+        if (currentFilters.sport && event.sport.toUpperCase() !== currentFilters.sport.toUpperCase()) {
+          return false;
+        }
+        
+        // Apply live only filter
+        if (currentFilters.liveOnly && !event.is_live) {
+          return false;
+        }
+        
+        // Apply gold medal only filter - check is_medal_event field
+        if (currentFilters.goldMedalOnly && !event.is_medal_event) {
+          return false;
+        }
+        
+        // Apply USA only filter - check for "United States"
+        if (currentFilters.usaOnly) {
+          if (!event.teams || (event.teams.team1 !== 'United States' && event.teams.team2 !== 'United States')) {
+            return false;
+          }
+        }
+        
+        return true;
+      });
+
+      return {
+        ...matchday,
+        events: filteredEvents
+      };
+    }).filter(matchday => matchday.events.length > 0); // Only include days with events
+  });
 
   onMount(async () => {
     const response = await fetch('/data/schedule.json');
@@ -17,7 +71,7 @@
       return acc;
     }, {});
 
-    matchdays = Object.entries(groupedEvents).map(([date, events]) => {
+    const allMatchdays = Object.entries(groupedEvents).map(([date, events]) => {
       const dateObj = new Date(date);
       const dayOfWeek = new Intl.DateTimeFormat('en-US', { weekday: 'long' }).format(dateObj);
       const shortDayOfWeek = new Intl.DateTimeFormat('en-US', { weekday: 'short' }).format(dateObj).toUpperCase();
@@ -31,6 +85,8 @@
       };
     });
 
+    matchdays.set(allMatchdays);
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -42,7 +98,7 @@
       { threshold: 0.5 }
     );
 
-    matchdays.forEach((matchday) => {
+    allMatchdays.forEach((matchday) => {
       const element = document.getElementById(matchday.id);
       if (element) {
         observer.observe(element);
@@ -57,10 +113,21 @@
       activeDate = id;
     }
   }
+
+  // Update URL to change filters
+  function updateFilter(key, value) {
+    const params = new URLSearchParams($page.url.searchParams);
+    if (value) {
+      params.set(key, value);
+    } else {
+      params.delete(key);
+    }
+    goto(`?${params.toString()}`, { replaceState: true, noScroll: true });
+  }
 </script>
 
 <section class="prose">
-  {#each matchdays as matchday}
+  {#each $filteredMatchdays as matchday}
     <div id={matchday.id}>
       <Matchday date={matchday.date} events={matchday.events} />
     </div>
@@ -69,7 +136,7 @@
 
 <nav class="sticky-nav">
   <div class="nav-container">
-    {#each matchdays as matchday}
+    {#each $filteredMatchdays as matchday}
       <button 
         class:active={activeDate === matchday.id} 
         on:click={() => scrollToDate(matchday.id)}>
@@ -105,13 +172,13 @@
     padding: 0.5rem 1rem;
     cursor: pointer;
     font-size: 1rem;
-    color: #007acc;
+    color: oklch(0.54 0.15 210);
     white-space: nowrap;
   }
 
   .sticky-nav button.active {
     font-weight: bold;
-    color: #0056b3;
+    color: oklch(0.46 0.14 210);
     text-decoration: underline;
   }
 

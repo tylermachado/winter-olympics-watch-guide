@@ -49,7 +49,7 @@
 
   .sport {
     font-size: 0.9rem;
-    color: gray;
+    color: oklch(0.54 0.15 210);
   }
 
   .event-name {
@@ -64,6 +64,6 @@
 
   .broadcaster {
     font-size: 0.9rem;
-    color: blue;
+    color: oklch(0.46 0.14 210);
   }
 </style>
