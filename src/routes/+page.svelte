@@ -1,6 +1,7 @@
 <script>
   import { onMount } from 'svelte';
   import Matchday from '$lib/Matchday.svelte';
+  import StickyNav from '$lib/StickyNav.svelte';
   import { page } from '$app/stores';
   import { goto } from '$app/navigation';
   import { derived, writable } from 'svelte/store';
@@ -134,17 +135,7 @@
   {/each}
 </section>
 
-<nav class="sticky-nav">
-  <div class="nav-container">
-    {#each $filteredMatchdays as matchday}
-      <button 
-        class:active={activeDate === matchday.id} 
-        on:click={() => scrollToDate(matchday.id)}>
-        {matchday.shortDate}
-      </button>
-    {/each}
-  </div>
-</nav>
+<StickyNav matchdays={$matchdays} {activeDate} {scrollToDate} filteredMatchdays={$filteredMatchdays} />
 
 <style>
   .sticky-nav {

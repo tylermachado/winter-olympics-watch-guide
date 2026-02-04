@@ -1,22 +1,42 @@
 @import 'tailwindcss';
 
 @theme {
-	--font-sans: 'Public Sans', ui-sans-serif, system-ui, sans-serif;
-	
-	/* Set Cyan as the primary color scale */
-	--color-primary-50: oklch(0.98 0.01 210);
-	--color-primary-100: oklch(0.93 0.03 210);
-	--color-primary-200: oklch(0.86 0.06 210);
-	--color-primary-300: oklch(0.76 0.11 210);
-	--color-primary-400: oklch(0.64 0.14 210);
-	--color-primary-500: oklch(0.54 0.15 210);
-	--color-primary-600: oklch(0.46 0.14 210);
-	--color-primary-700: oklch(0.39 0.11 215);
-	--color-primary-800: oklch(0.33 0.09 220);
-	--color-primary-900: oklch(0.29 0.07 220);
-	--color-primary-950: oklch(0.20 0.05 225);
+    --font-sans: 'Public Sans', ui-sans-serif, system-ui, sans-serif;
+    
+    --color-primary-50: oklch(0.95 0.05 200);
+    --color-primary-100: oklch(0.85 0.07 200);
+    --color-primary-200: oklch(0.75 0.09 200);
+    --color-primary-300: oklch(0.65 0.11 200);
+    --color-primary-400: oklch(0.55 0.13 200);
+    --color-primary-500: oklch(0.45 0.15 200);
+    --color-primary-600: oklch(0.35 0.14 200);
+    --color-primary-700: oklch(0.28 0.12 200);
+    --color-primary-800: oklch(0.22 0.10 200);
+    --color-primary-900: oklch(0.18 0.08 200);
+
+    --color-accent-50: theme('colors.amber.50');
+    --color-accent-100: theme('colors.amber.100');
+    --color-accent-200: theme('colors.amber.200');
+    --color-accent-300: theme('colors.amber.300');
+    --color-accent-400: theme('colors.amber.400');
+    --color-accent-500: theme('colors.amber.500');
+    --color-accent-600: theme('colors.amber.600');
+    --color-accent-700: theme('colors.amber.700');
+    --color-accent-800: theme('colors.amber.800');
+    --color-accent-900: theme('colors.amber.900');
+
+    --color-gray-50: theme('colors.zinc.50');
+    --color-gray-100: theme('colors.zinc.100');
+    --color-gray-200: theme('colors.zinc.200');
+    --color-gray-300: theme('colors.zinc.300');
+    --color-gray-400: theme('colors.zinc.400');
+    --color-gray-500: theme('colors.zinc.500');
+    --color-gray-600: theme('colors.zinc.600');
+    --color-gray-700: theme('colors.zinc.700');
+    --color-gray-800: theme('colors.zinc.800');
+    --color-gray-900: theme('colors.zinc.900');
 }
 
 * {
-	font-family: 'Public Sans', ui-sans-serif, system-ui, sans-serif;
+    font-family: 'Public Sans', ui-sans-serif, system-ui, sans-serif;
 }
