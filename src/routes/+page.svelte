@@ -1,2 +1,4 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<section class="prose">
+	<h1>Winter Olympics Watch Guide</h1>
+	<p>This demo shows a simple schedule and medal tracker. Use the header to navigate.</p>
+</section>
