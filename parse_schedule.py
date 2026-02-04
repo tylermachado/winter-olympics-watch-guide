@@ -115,8 +115,18 @@ def parse_event_block(event_text, start_time, date):
     else:
         sport = first_line
     
-    # Clean up sport name (remove trailing colon and team names for hockey/curling)
-    sport = re.sub(r':.*$', '', sport).strip()
+    # Extract team/country names if present (format: "SPORT: Team1 vs Team2")
+    teams = None
+    team_match = re.match(r'^([^:]+):\s*(.+?)\s+vs\s+(.+)$', sport, re.IGNORECASE)
+    if team_match:
+        sport = team_match.group(1).strip()
+        teams = {
+            "team1": team_match.group(2).strip(),
+            "team2": team_match.group(3).strip()
+        }
+    else:
+        # Clean up sport name (remove trailing colon)
+        sport = re.sub(r':.*$', '', sport).strip()
     
     # Second line is the event description
     event_description = lines[1].strip() if len(lines) > 1 else ""
@@ -133,7 +143,7 @@ def parse_event_block(event_text, start_time, date):
         # Event description is everything between first and last line
         event_description = ' '.join(line.strip() for line in lines[1:-1])
     
-    return {
+    event_data = {
         "date": date,
         "start_time": start_time,
         "sport": sport,
@@ -143,6 +153,12 @@ def parse_event_block(event_text, start_time, date):
         "is_medal_event": is_medal_event,
         "broadcaster": broadcaster
     }
+    
+    # Add teams if present
+    if teams:
+        event_data["teams"] = teams
+    
+    return event_data
 
 
 if __name__ == "__main__":

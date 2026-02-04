@@ -7,7 +7,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Sweden",
+      "team2": "South Korea"
+    }
   },
   {
     "date": "February 4, 2026",
@@ -17,7 +21,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Great Britain",
+      "team2": "Norway"
+    }
   },
   {
     "date": "February 4, 2026",
@@ -27,7 +35,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Canada",
+      "team2": "Czechia"
+    }
   },
   {
     "date": "February 4, 2026",
@@ -37,7 +49,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Estonia",
+      "team2": "Switzerland"
+    }
   },
   {
     "date": "February 5, 2026",
@@ -47,7 +63,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Sweden",
+      "team2": "Czechia"
+    }
   },
   {
     "date": "February 5, 2026",
@@ -57,7 +77,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Great Britain",
+      "team2": "Estonia"
+    }
   },
   {
     "date": "February 5, 2026",
@@ -67,7 +91,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "South Korea",
+      "team2": "Italy"
+    }
   },
   {
     "date": "February 5, 2026",
@@ -77,7 +105,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Norway",
+      "team2": "United States"
+    }
   },
   {
     "date": "February 5, 2026",
@@ -87,7 +119,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Sweden",
+      "team2": "Germany"
+    }
   },
   {
     "date": "February 5, 2026",
@@ -107,7 +143,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Norway",
+      "team2": "Canada"
+    }
   },
   {
     "date": "February 5, 2026",
@@ -117,7 +157,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK, PEACOCK"
+    "broadcaster": "USA NETWORK, PEACOCK",
+    "teams": {
+      "team1": "United States",
+      "team2": "Switzerland"
+    }
   },
   {
     "date": "February 5, 2026",
@@ -127,7 +171,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Italy",
+      "team2": "France"
+    }
   },
   {
     "date": "February 5, 2026",
@@ -137,7 +185,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK, PEACOCK"
+    "broadcaster": "USA NETWORK, PEACOCK",
+    "teams": {
+      "team1": "United States",
+      "team2": "Czechia"
+    }
   },
   {
     "date": "February 5, 2026",
@@ -147,7 +199,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Estonia",
+      "team2": "Sweden"
+    }
   },
   {
     "date": "February 5, 2026",
@@ -157,7 +213,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Czechia",
+      "team2": "Great Britain"
+    }
   },
   {
     "date": "February 5, 2026",
@@ -167,7 +227,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Switzerland",
+      "team2": "South Korea"
+    }
   },
   {
     "date": "February 5, 2026",
@@ -177,7 +241,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK, PEACOCK"
+    "broadcaster": "USA NETWORK, PEACOCK",
+    "teams": {
+      "team1": "Canada",
+      "team2": "Italy"
+    }
   },
   {
     "date": "February 5, 2026",
@@ -197,7 +265,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Finland",
+      "team2": "Canada"
+    }
   },
   {
     "date": "February 5, 2026",
@@ -207,7 +279,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "Finland",
+      "team2": "Canada"
+    }
   },
   {
     "date": "February 5, 2026",
@@ -217,7 +293,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "CNBC"
+    "broadcaster": "CNBC",
+    "teams": {
+      "team1": "Norway",
+      "team2": "United States"
+    }
   },
   {
     "date": "February 5, 2026",
@@ -227,7 +307,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "United States",
+      "team2": "Czechia"
+    }
   },
   {
     "date": "February 5, 2026",
@@ -237,7 +321,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "CNBC"
+    "broadcaster": "CNBC",
+    "teams": {
+      "team1": "United States",
+      "team2": "Switzerland"
+    }
   },
   {
     "date": "February 5, 2026",
@@ -267,7 +355,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Italy",
+      "team2": "Switzerland"
+    }
   },
   {
     "date": "February 6, 2026",
@@ -277,7 +369,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Sweden",
+      "team2": "Great Britain"
+    }
   },
   {
     "date": "February 6, 2026",
@@ -287,7 +383,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "United States",
+      "team2": "Canada"
+    }
   },
   {
     "date": "February 6, 2026",
@@ -307,7 +407,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "France",
+      "team2": "Japan"
+    }
   },
   {
     "date": "February 6, 2026",
@@ -327,7 +431,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Sweden",
+      "team2": "Norway"
+    }
   },
   {
     "date": "February 6, 2026",
@@ -337,7 +445,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Estonia",
+      "team2": "Italy"
+    }
   },
   {
     "date": "February 6, 2026",
@@ -347,7 +459,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Czechia",
+      "team2": "United States"
+    }
   },
   {
     "date": "February 6, 2026",
@@ -357,7 +473,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "South Korea",
+      "team2": "Great Britain"
+    }
   },
   {
     "date": "February 6, 2026",
@@ -367,7 +487,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Czechia",
+      "team2": "Switzerland"
+    }
   },
   {
     "date": "February 6, 2026",
@@ -377,7 +501,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "Czechia",
+      "team2": "United States"
+    }
   },
   {
     "date": "February 6, 2026",
@@ -447,7 +575,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Switzerland",
+      "team2": "Sweden"
+    }
   },
   {
     "date": "February 7, 2026",
@@ -457,7 +589,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK, PEACOCK"
+    "broadcaster": "USA NETWORK, PEACOCK",
+    "teams": {
+      "team1": "Great Britain",
+      "team2": "Canada"
+    }
   },
   {
     "date": "February 7, 2026",
@@ -487,7 +623,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Germany",
+      "team2": "Japan"
+    }
   },
   {
     "date": "February 7, 2026",
@@ -527,7 +667,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Sweden",
+      "team2": "Italy"
+    }
   },
   {
     "date": "February 7, 2026",
@@ -537,7 +681,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Estonia",
+      "team2": "Norway"
+    }
   },
   {
     "date": "February 7, 2026",
@@ -547,7 +695,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Great Britain",
+      "team2": "United States"
+    }
   },
   {
     "date": "February 7, 2026",
@@ -557,7 +709,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Czechia",
+      "team2": "South Korea"
+    }
   },
   {
     "date": "February 7, 2026",
@@ -567,7 +723,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Sweden",
+      "team2": "Italy"
+    }
   },
   {
     "date": "February 7, 2026",
@@ -577,7 +737,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "Great Britain",
+      "team2": "United States"
+    }
   },
   {
     "date": "February 7, 2026",
@@ -597,7 +761,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK, PEACOCK"
+    "broadcaster": "USA NETWORK, PEACOCK",
+    "teams": {
+      "team1": "United States",
+      "team2": "Finland"
+    }
   },
   {
     "date": "February 7, 2026",
@@ -657,7 +825,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "South Korea",
+      "team2": "United States"
+    }
   },
   {
     "date": "February 7, 2026",
@@ -667,7 +839,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Czechia",
+      "team2": "Switzerland"
+    }
   },
   {
     "date": "February 7, 2026",
@@ -677,7 +853,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Norway",
+      "team2": "Italy"
+    }
   },
   {
     "date": "February 7, 2026",
@@ -687,7 +867,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Canada",
+      "team2": "Estonia"
+    }
   },
   {
     "date": "February 7, 2026",
@@ -727,7 +911,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK, PEACOCK"
+    "broadcaster": "USA NETWORK, PEACOCK",
+    "teams": {
+      "team1": "Switzerland",
+      "team2": "Canada"
+    }
   },
   {
     "date": "February 7, 2026",
@@ -767,7 +955,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "CNBC"
+    "broadcaster": "CNBC",
+    "teams": {
+      "team1": "Great Britain",
+      "team2": "United States"
+    }
   },
   {
     "date": "February 7, 2026",
@@ -787,7 +979,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "United States",
+      "team2": "Finland"
+    }
   },
   {
     "date": "February 7, 2026",
@@ -847,7 +1043,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "South Korea",
+      "team2": "Estonia"
+    }
   },
   {
     "date": "February 8, 2026",
@@ -857,7 +1057,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Norway",
+      "team2": "Czechia"
+    }
   },
   {
     "date": "February 8, 2026",
@@ -937,7 +1141,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Italy",
+      "team2": "Czechia"
+    }
   },
   {
     "date": "February 8, 2026",
@@ -947,7 +1155,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK, PEACOCK"
+    "broadcaster": "USA NETWORK, PEACOCK",
+    "teams": {
+      "team1": "United States",
+      "team2": "Estonia"
+    }
   },
   {
     "date": "February 8, 2026",
@@ -957,7 +1169,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Canada",
+      "team2": "Sweden"
+    }
   },
   {
     "date": "February 8, 2026",
@@ -967,7 +1183,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Great Britain",
+      "team2": "Switzerland"
+    }
   },
   {
     "date": "February 8, 2026",
@@ -1007,7 +1227,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "France",
+      "team2": "Sweden"
+    }
   },
   {
     "date": "February 8, 2026",
@@ -1057,7 +1281,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Switzerland",
+      "team2": "Norway"
+    }
   },
   {
     "date": "February 8, 2026",
@@ -1067,7 +1295,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Canada",
+      "team2": "South Korea"
+    }
   },
   {
     "date": "February 8, 2026",
@@ -1077,7 +1309,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "United States",
+      "team2": "Sweden"
+    }
   },
   {
     "date": "February 8, 2026",
@@ -1087,7 +1323,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Italy",
+      "team2": "Great Britain"
+    }
   },
   {
     "date": "February 8, 2026",
@@ -1127,7 +1367,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Czechia",
+      "team2": "Finland"
+    }
   },
   {
     "date": "February 8, 2026",
@@ -1147,7 +1391,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "CNBC"
+    "broadcaster": "CNBC",
+    "teams": {
+      "team1": "United States",
+      "team2": "Estonia"
+    }
   },
   {
     "date": "February 8, 2026",
@@ -1157,7 +1405,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "Czechia",
+      "team2": "Finland"
+    }
   },
   {
     "date": "February 8, 2026",
@@ -1187,7 +1439,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "CNBC"
+    "broadcaster": "CNBC",
+    "teams": {
+      "team1": "United States",
+      "team2": "Sweden"
+    }
   },
   {
     "date": "February 8, 2026",
@@ -1197,7 +1453,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "France",
+      "team2": "Sweden"
+    }
   },
   {
     "date": "February 8, 2026",
@@ -1207,7 +1467,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "CNBC"
+    "broadcaster": "CNBC",
+    "teams": {
+      "team1": "Italy",
+      "team2": "Great Britain"
+    }
   },
   {
     "date": "February 8, 2026",
@@ -1277,7 +1541,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Norway",
+      "team2": "South Korea"
+    }
   },
   {
     "date": "February 9, 2026",
@@ -1287,7 +1555,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Italy",
+      "team2": "United States"
+    }
   },
   {
     "date": "February 9, 2026",
@@ -1297,7 +1569,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Switzerland",
+      "team2": "Canada"
+    }
   },
   {
     "date": "February 9, 2026",
@@ -1307,7 +1583,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Czechia",
+      "team2": "Estonia"
+    }
   },
   {
     "date": "February 9, 2026",
@@ -1337,7 +1617,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Japan",
+      "team2": "Italy"
+    }
   },
   {
     "date": "February 9, 2026",
@@ -1377,7 +1661,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "Italy",
+      "team2": "United States"
+    }
   },
   {
     "date": "February 9, 2026",
@@ -1387,7 +1675,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Germany",
+      "team2": "France"
+    }
   },
   {
     "date": "February 9, 2026",
@@ -1417,7 +1709,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "Germany",
+      "team2": "France"
+    }
   },
   {
     "date": "February 9, 2026",
@@ -1437,7 +1733,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 9, 2026",
@@ -1447,7 +1747,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 9, 2026",
@@ -1517,7 +1821,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK, PEACOCK"
+    "broadcaster": "USA NETWORK, PEACOCK",
+    "teams": {
+      "team1": "Switzerland",
+      "team2": "United States"
+    }
   },
   {
     "date": "February 9, 2026",
@@ -1527,7 +1835,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Canada",
+      "team2": "Czechia"
+    }
   },
   {
     "date": "February 9, 2026",
@@ -1537,7 +1849,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "CNBC"
+    "broadcaster": "CNBC",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 9, 2026",
@@ -1547,7 +1863,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "Canada",
+      "team2": "Czechia"
+    }
   },
   {
     "date": "February 9, 2026",
@@ -1567,7 +1887,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "CNBC"
+    "broadcaster": "CNBC",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 9, 2026",
@@ -1607,7 +1931,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 9, 2026",
@@ -1627,7 +1955,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "Switzerland",
+      "team2": "United States"
+    }
   },
   {
     "date": "February 9, 2026",
@@ -1767,7 +2099,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Japan",
+      "team2": "Sweden"
+    }
   },
   {
     "date": "February 10, 2026",
@@ -1817,7 +2153,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": true,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 10, 2026",
@@ -1837,7 +2177,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": true,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 10, 2026",
@@ -1867,7 +2211,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Italy",
+      "team2": "Germany"
+    }
   },
   {
     "date": "February 10, 2026",
@@ -1907,7 +2255,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": true,
-    "broadcaster": "USA NETWORK, PEACOCK"
+    "broadcaster": "USA NETWORK, PEACOCK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 10, 2026",
@@ -1987,7 +2339,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK, PEACOCK"
+    "broadcaster": "USA NETWORK, PEACOCK",
+    "teams": {
+      "team1": "Canada",
+      "team2": "United States"
+    }
   },
   {
     "date": "February 10, 2026",
@@ -1997,7 +2353,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Finland",
+      "team2": "Switzerland"
+    }
   },
   {
     "date": "February 10, 2026",
@@ -2017,7 +2377,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": true,
-    "broadcaster": "CNBC"
+    "broadcaster": "CNBC",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 10, 2026",
@@ -2037,7 +2401,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": true,
-    "broadcaster": "CNBC"
+    "broadcaster": "CNBC",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 10, 2026",
@@ -2077,7 +2445,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": true,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 10, 2026",
@@ -2087,7 +2459,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": true,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 10, 2026",
@@ -2097,7 +2473,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "Canada",
+      "team2": "United States"
+    }
   },
   {
     "date": "February 10, 2026",
@@ -2297,7 +2677,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK, PEACOCK"
+    "broadcaster": "USA NETWORK, PEACOCK",
+    "teams": {
+      "team1": "Slovakia",
+      "team2": "Finland"
+    }
   },
   {
     "date": "February 11, 2026",
@@ -2397,7 +2781,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Sweden",
+      "team2": "Italy"
+    }
   },
   {
     "date": "February 11, 2026",
@@ -2407,7 +2795,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Canada",
+      "team2": "Germany"
+    }
   },
   {
     "date": "February 11, 2026",
@@ -2417,7 +2809,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "China",
+      "team2": "Great Britain"
+    }
   },
   {
     "date": "February 11, 2026",
@@ -2427,7 +2823,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Czechia",
+      "team2": "United States"
+    }
   },
   {
     "date": "February 11, 2026",
@@ -2497,7 +2897,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK, PEACOCK"
+    "broadcaster": "USA NETWORK, PEACOCK",
+    "teams": {
+      "team1": "Sweden",
+      "team2": "Italy"
+    }
   },
   {
     "date": "February 11, 2026",
@@ -2507,7 +2911,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "CNBC"
+    "broadcaster": "CNBC",
+    "teams": {
+      "team1": "Czechia",
+      "team2": "United States"
+    }
   },
   {
     "date": "February 11, 2026",
@@ -2557,7 +2965,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK, PEACOCK"
+    "broadcaster": "USA NETWORK, PEACOCK",
+    "teams": {
+      "team1": "Slovakia",
+      "team2": "Finland"
+    }
   },
   {
     "date": "February 11, 2026",
@@ -2567,7 +2979,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "China",
+      "team2": "Great Britain"
+    }
   },
   {
     "date": "February 11, 2026",
@@ -2637,7 +3053,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Japan",
+      "team2": "Sweden"
+    }
   },
   {
     "date": "February 12, 2026",
@@ -2647,7 +3067,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Italy",
+      "team2": "Switzerland"
+    }
   },
   {
     "date": "February 12, 2026",
@@ -2657,7 +3081,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "South Korea",
+      "team2": "United States"
+    }
   },
   {
     "date": "February 12, 2026",
@@ -2667,7 +3095,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Canada",
+      "team2": "Denmark"
+    }
   },
   {
     "date": "February 12, 2026",
@@ -2727,7 +3159,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Switzerland",
+      "team2": "France"
+    }
   },
   {
     "date": "February 12, 2026",
@@ -2787,7 +3223,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "United States",
+      "team2": "Switzerland"
+    }
   },
   {
     "date": "February 12, 2026",
@@ -2797,7 +3237,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Norway",
+      "team2": "Germany"
+    }
   },
   {
     "date": "February 12, 2026",
@@ -2807,7 +3251,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Great Britain",
+      "team2": "Sweden"
+    }
   },
   {
     "date": "February 12, 2026",
@@ -2827,7 +3275,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "South Korea",
+      "team2": "United States"
+    }
   },
   {
     "date": "February 12, 2026",
@@ -2847,7 +3299,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK, PEACOCK"
+    "broadcaster": "USA NETWORK, PEACOCK",
+    "teams": {
+      "team1": "Czechia",
+      "team2": "Canada"
+    }
   },
   {
     "date": "February 12, 2026",
@@ -2887,7 +3343,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "China",
+      "team2": "Great Britain"
+    }
   },
   {
     "date": "February 12, 2026",
@@ -2897,7 +3357,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Denmark",
+      "team2": "Japan"
+    }
   },
   {
     "date": "February 12, 2026",
@@ -2907,7 +3371,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Sweden",
+      "team2": "United States"
+    }
   },
   {
     "date": "February 12, 2026",
@@ -2917,7 +3385,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Italy",
+      "team2": "South Korea"
+    }
   },
   {
     "date": "February 12, 2026",
@@ -2967,7 +3439,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK, PEACOCK"
+    "broadcaster": "USA NETWORK, PEACOCK",
+    "teams": {
+      "team1": "Latvia",
+      "team2": "United States"
+    }
   },
   {
     "date": "February 12, 2026",
@@ -2977,7 +3453,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Germany",
+      "team2": "Denmark"
+    }
   },
   {
     "date": "February 12, 2026",
@@ -2997,7 +3477,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "CNBC"
+    "broadcaster": "CNBC",
+    "teams": {
+      "team1": "United States",
+      "team2": "Switzerland"
+    }
   },
   {
     "date": "February 12, 2026",
@@ -3017,7 +3501,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "Czechia",
+      "team2": "Canada"
+    }
   },
   {
     "date": "February 12, 2026",
@@ -3037,7 +3525,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "Germany",
+      "team2": "Denmark"
+    }
   },
   {
     "date": "February 12, 2026",
@@ -3047,7 +3539,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "Sweden",
+      "team2": "United States"
+    }
   },
   {
     "date": "February 12, 2026",
@@ -3057,7 +3553,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "Latvia",
+      "team2": "United States"
+    }
   },
   {
     "date": "February 12, 2026",
@@ -3107,7 +3607,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK, PEACOCK"
+    "broadcaster": "USA NETWORK, PEACOCK",
+    "teams": {
+      "team1": "Canada",
+      "team2": "United States"
+    }
   },
   {
     "date": "February 13, 2026",
@@ -3117,7 +3621,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Great Britain",
+      "team2": "Italy"
+    }
   },
   {
     "date": "February 13, 2026",
@@ -3127,7 +3635,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "China",
+      "team2": "Norway"
+    }
   },
   {
     "date": "February 13, 2026",
@@ -3137,7 +3649,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Switzerland",
+      "team2": "Czechia"
+    }
   },
   {
     "date": "February 13, 2026",
@@ -3177,7 +3693,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Finland",
+      "team2": "Sweden"
+    }
   },
   {
     "date": "February 13, 2026",
@@ -3187,7 +3707,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Italy",
+      "team2": "Slovakia"
+    }
   },
   {
     "date": "February 13, 2026",
@@ -3197,7 +3721,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "Finland",
+      "team2": "Sweden"
+    }
   },
   {
     "date": "February 13, 2026",
@@ -3237,7 +3765,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "China",
+      "team2": "Switzerland"
+    }
   },
   {
     "date": "February 13, 2026",
@@ -3247,7 +3779,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Great Britain",
+      "team2": "South Korea"
+    }
   },
   {
     "date": "February 13, 2026",
@@ -3257,7 +3793,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "United States",
+      "team2": "Canada"
+    }
   },
   {
     "date": "February 13, 2026",
@@ -3267,7 +3807,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Denmark",
+      "team2": "Sweden"
+    }
   },
   {
     "date": "February 13, 2026",
@@ -3347,7 +3891,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "France",
+      "team2": "Czechia"
+    }
   },
   {
     "date": "February 13, 2026",
@@ -3357,7 +3905,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 13, 2026",
@@ -3417,7 +3969,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Czechia",
+      "team2": "Norway"
+    }
   },
   {
     "date": "February 13, 2026",
@@ -3427,7 +3983,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Switzerland",
+      "team2": "China"
+    }
   },
   {
     "date": "February 13, 2026",
@@ -3437,7 +3997,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Canada",
+      "team2": "Sweden"
+    }
   },
   {
     "date": "February 13, 2026",
@@ -3447,7 +4011,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Germany",
+      "team2": "Italy"
+    }
   },
   {
     "date": "February 13, 2026",
@@ -3497,7 +4065,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Canada",
+      "team2": "Switzerland"
+    }
   },
   {
     "date": "February 13, 2026",
@@ -3507,7 +4079,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK, PEACOCK"
+    "broadcaster": "USA NETWORK, PEACOCK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 13, 2026",
@@ -3517,7 +4093,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "CNBC"
+    "broadcaster": "CNBC",
+    "teams": {
+      "team1": "United States",
+      "team2": "Canada"
+    }
   },
   {
     "date": "February 13, 2026",
@@ -3567,7 +4147,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 13, 2026",
@@ -3577,7 +4161,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "Canada",
+      "team2": "Sweden"
+    }
   },
   {
     "date": "February 13, 2026",
@@ -3587,7 +4175,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 13, 2026",
@@ -3607,7 +4199,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "Canada",
+      "team2": "Switzerland"
+    }
   },
   {
     "date": "February 14, 2026",
@@ -3637,7 +4233,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Great Britain",
+      "team2": "Canada"
+    }
   },
   {
     "date": "February 14, 2026",
@@ -3647,7 +4247,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Switzerland",
+      "team2": "Japan"
+    }
   },
   {
     "date": "February 14, 2026",
@@ -3657,7 +4261,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Italy",
+      "team2": "China"
+    }
   },
   {
     "date": "February 14, 2026",
@@ -3697,7 +4305,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "CNBC, PEACOCK"
+    "broadcaster": "CNBC, PEACOCK",
+    "teams": {
+      "team1": "Germany",
+      "team2": "Latvia"
+    }
   },
   {
     "date": "February 14, 2026",
@@ -3707,7 +4319,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Sweden",
+      "team2": "Slovakia"
+    }
   },
   {
     "date": "February 14, 2026",
@@ -3737,7 +4353,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "Great Britain",
+      "team2": "Canada"
+    }
   },
   {
     "date": "February 14, 2026",
@@ -3757,7 +4377,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Czechia",
+      "team2": "Great Britain"
+    }
   },
   {
     "date": "February 14, 2026",
@@ -3767,7 +4391,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Germany",
+      "team2": "United States"
+    }
   },
   {
     "date": "February 14, 2026",
@@ -3777,7 +4405,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Sweden",
+      "team2": "China"
+    }
   },
   {
     "date": "February 14, 2026",
@@ -3787,7 +4419,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Switzerland",
+      "team2": "Canada"
+    }
   },
   {
     "date": "February 14, 2026",
@@ -3807,7 +4443,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "CNBC"
+    "broadcaster": "CNBC",
+    "teams": {
+      "team1": "Italy",
+      "team2": "China"
+    }
   },
   {
     "date": "February 14, 2026",
@@ -3857,7 +4497,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK, PEACOCK"
+    "broadcaster": "USA NETWORK, PEACOCK",
+    "teams": {
+      "team1": "Finland",
+      "team2": "Italy"
+    }
   },
   {
     "date": "February 14, 2026",
@@ -3867,7 +4511,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "CNBC, PEACOCK"
+    "broadcaster": "CNBC, PEACOCK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 14, 2026",
@@ -3937,7 +4585,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "CNBC"
+    "broadcaster": "CNBC",
+    "teams": {
+      "team1": "Germany",
+      "team2": "United States"
+    }
   },
   {
     "date": "February 14, 2026",
@@ -3957,7 +4609,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Canada",
+      "team2": "Switzerland"
+    }
   },
   {
     "date": "February 14, 2026",
@@ -3967,7 +4623,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Italy",
+      "team2": "Sweden"
+    }
   },
   {
     "date": "February 14, 2026",
@@ -3977,7 +4637,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Japan",
+      "team2": "United States"
+    }
   },
   {
     "date": "February 14, 2026",
@@ -3987,7 +4651,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "South Korea",
+      "team2": "Denmark"
+    }
   },
   {
     "date": "February 14, 2026",
@@ -4057,7 +4725,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK, PEACOCK"
+    "broadcaster": "USA NETWORK, PEACOCK",
+    "teams": {
+      "team1": "United States",
+      "team2": "Denmark"
+    }
   },
   {
     "date": "February 14, 2026",
@@ -4067,7 +4739,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "CNBC, PEACOCK"
+    "broadcaster": "CNBC, PEACOCK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 14, 2026",
@@ -4087,7 +4763,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "CNBC"
+    "broadcaster": "CNBC",
+    "teams": {
+      "team1": "Japan",
+      "team2": "United States"
+    }
   },
   {
     "date": "February 14, 2026",
@@ -4137,7 +4817,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "CNBC"
+    "broadcaster": "CNBC",
+    "teams": {
+      "team1": "Italy",
+      "team2": "Sweden"
+    }
   },
   {
     "date": "February 14, 2026",
@@ -4147,7 +4831,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "Sweden",
+      "team2": "Slovakia"
+    }
   },
   {
     "date": "February 14, 2026",
@@ -4177,7 +4865,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "United States",
+      "team2": "Denmark"
+    }
   },
   {
     "date": "February 14, 2026",
@@ -4237,7 +4929,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Germany",
+      "team2": "Great Britain"
+    }
   },
   {
     "date": "February 15, 2026",
@@ -4247,7 +4943,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Norway",
+      "team2": "Italy"
+    }
   },
   {
     "date": "February 15, 2026",
@@ -4257,7 +4957,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "United States",
+      "team2": "Sweden"
+    }
   },
   {
     "date": "February 15, 2026",
@@ -4327,7 +5031,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "CNBC, PEACOCK"
+    "broadcaster": "CNBC, PEACOCK",
+    "teams": {
+      "team1": "Switzerland",
+      "team2": "Czechia"
+    }
   },
   {
     "date": "February 15, 2026",
@@ -4387,7 +5095,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Japan",
+      "team2": "South Korea"
+    }
   },
   {
     "date": "February 15, 2026",
@@ -4397,7 +5109,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "United States",
+      "team2": "China"
+    }
   },
   {
     "date": "February 15, 2026",
@@ -4407,7 +5123,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Denmark",
+      "team2": "Italy"
+    }
   },
   {
     "date": "February 15, 2026",
@@ -4417,7 +5137,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Great Britain",
+      "team2": "Sweden"
+    }
   },
   {
     "date": "February 15, 2026",
@@ -4427,7 +5151,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "CNBC"
+    "broadcaster": "CNBC",
+    "teams": {
+      "team1": "United States",
+      "team2": "China"
+    }
   },
   {
     "date": "February 15, 2026",
@@ -4507,7 +5235,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK, PEACOCK"
+    "broadcaster": "USA NETWORK, PEACOCK",
+    "teams": {
+      "team1": "Canada",
+      "team2": "France"
+    }
   },
   {
     "date": "February 15, 2026",
@@ -4517,7 +5249,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "CNBC"
+    "broadcaster": "CNBC",
+    "teams": {
+      "team1": "United States",
+      "team2": "Sweden"
+    }
   },
   {
     "date": "February 15, 2026",
@@ -4587,7 +5323,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Italy",
+      "team2": "Czechia"
+    }
   },
   {
     "date": "February 15, 2026",
@@ -4597,7 +5337,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Great Britain",
+      "team2": "Switzerland"
+    }
   },
   {
     "date": "February 15, 2026",
@@ -4607,7 +5351,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "China",
+      "team2": "Canada"
+    }
   },
   {
     "date": "February 15, 2026",
@@ -4617,7 +5365,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Norway",
+      "team2": "United States"
+    }
   },
   {
     "date": "February 15, 2026",
@@ -4627,7 +5379,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "CNBC, PEACOCK"
+    "broadcaster": "CNBC, PEACOCK",
+    "teams": {
+      "team1": "Denmark",
+      "team2": "Latvia"
+    }
   },
   {
     "date": "February 15, 2026",
@@ -4687,7 +5443,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK, PEACOCK"
+    "broadcaster": "USA NETWORK, PEACOCK",
+    "teams": {
+      "team1": "United States",
+      "team2": "Germany"
+    }
   },
   {
     "date": "February 15, 2026",
@@ -4697,7 +5457,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "CNBC"
+    "broadcaster": "CNBC",
+    "teams": {
+      "team1": "Denmark",
+      "team2": "Italy"
+    }
   },
   {
     "date": "February 15, 2026",
@@ -4717,7 +5481,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "CNBC"
+    "broadcaster": "CNBC",
+    "teams": {
+      "team1": "Canada",
+      "team2": "France"
+    }
   },
   {
     "date": "February 15, 2026",
@@ -4757,7 +5525,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "CNBC"
+    "broadcaster": "CNBC",
+    "teams": {
+      "team1": "Norway",
+      "team2": "United States"
+    }
   },
   {
     "date": "February 15, 2026",
@@ -4777,7 +5549,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "Denmark",
+      "team2": "Latvia"
+    }
   },
   {
     "date": "February 15, 2026",
@@ -4797,7 +5573,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "United States",
+      "team2": "Germany"
+    }
   },
   {
     "date": "February 15, 2026",
@@ -4847,7 +5627,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "China",
+      "team2": "Canada"
+    }
   },
   {
     "date": "February 16, 2026",
@@ -4857,7 +5641,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Denmark",
+      "team2": "Great Britain"
+    }
   },
   {
     "date": "February 16, 2026",
@@ -4867,7 +5655,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Sweden",
+      "team2": "Switzerland"
+    }
   },
   {
     "date": "February 16, 2026",
@@ -4997,7 +5789,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Italy",
+      "team2": "China"
+    }
   },
   {
     "date": "February 16, 2026",
@@ -5007,7 +5803,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Great Britain",
+      "team2": "Norway"
+    }
   },
   {
     "date": "February 16, 2026",
@@ -5017,7 +5817,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Sweden",
+      "team2": "Germany"
+    }
   },
   {
     "date": "February 16, 2026",
@@ -5027,7 +5831,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Czechia",
+      "team2": "Canada"
+    }
   },
   {
     "date": "February 16, 2026",
@@ -5057,7 +5865,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "China",
+      "team2": "Canada"
+    }
   },
   {
     "date": "February 16, 2026",
@@ -5067,7 +5879,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "NBC, PEACOCK"
+    "broadcaster": "NBC, PEACOCK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 16, 2026",
@@ -5077,7 +5893,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "Great Britain",
+      "team2": "Norway"
+    }
   },
   {
     "date": "February 16, 2026",
@@ -5117,7 +5937,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "South Korea",
+      "team2": "China"
+    }
   },
   {
     "date": "February 16, 2026",
@@ -5127,7 +5951,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "United States",
+      "team2": "Italy"
+    }
   },
   {
     "date": "February 16, 2026",
@@ -5137,7 +5965,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Switzerland",
+      "team2": "Great Britain"
+    }
   },
   {
     "date": "February 16, 2026",
@@ -5147,7 +5979,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Japan",
+      "team2": "Canada"
+    }
   },
   {
     "date": "February 16, 2026",
@@ -5197,7 +6033,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 16, 2026",
@@ -5227,7 +6067,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 16, 2026",
@@ -5237,7 +6081,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "CNBC"
+    "broadcaster": "CNBC",
+    "teams": {
+      "team1": "United States",
+      "team2": "Italy"
+    }
   },
   {
     "date": "February 16, 2026",
@@ -5257,7 +6105,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 16, 2026",
@@ -5277,7 +6129,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 16, 2026",
@@ -5327,7 +6183,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 17, 2026",
@@ -5367,7 +6227,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "United States",
+      "team2": "China"
+    }
   },
   {
     "date": "February 17, 2026",
@@ -5377,7 +6241,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Czechia",
+      "team2": "Germany"
+    }
   },
   {
     "date": "February 17, 2026",
@@ -5387,7 +6255,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Switzerland",
+      "team2": "Sweden"
+    }
   },
   {
     "date": "February 17, 2026",
@@ -5417,7 +6289,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "United States",
+      "team2": "China"
+    }
   },
   {
     "date": "February 17, 2026",
@@ -5427,7 +6303,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 17, 2026",
@@ -5437,7 +6317,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 17, 2026",
@@ -5487,7 +6371,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Italy",
+      "team2": "Japan"
+    }
   },
   {
     "date": "February 17, 2026",
@@ -5497,7 +6385,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Denmark",
+      "team2": "United States"
+    }
   },
   {
     "date": "February 17, 2026",
@@ -5507,7 +6399,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Sweden",
+      "team2": "Canada"
+    }
   },
   {
     "date": "February 17, 2026",
@@ -5517,7 +6413,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "South Korea",
+      "team2": "Switzerland"
+    }
   },
   {
     "date": "February 17, 2026",
@@ -5577,7 +6477,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 17, 2026",
@@ -5607,7 +6511,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 17, 2026",
@@ -5657,7 +6565,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Germany",
+      "team2": "Switzerland"
+    }
   },
   {
     "date": "February 17, 2026",
@@ -5667,7 +6579,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Sweden",
+      "team2": "Norway"
+    }
   },
   {
     "date": "February 17, 2026",
@@ -5677,7 +6593,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "United States",
+      "team2": "Italy"
+    }
   },
   {
     "date": "February 17, 2026",
@@ -5687,7 +6607,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Canada",
+      "team2": "Great Britain"
+    }
   },
   {
     "date": "February 17, 2026",
@@ -5717,7 +6641,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK, PEACOCK"
+    "broadcaster": "USA NETWORK, PEACOCK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 17, 2026",
@@ -5727,7 +6655,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "CNBC"
+    "broadcaster": "CNBC",
+    "teams": {
+      "team1": "Denmark",
+      "team2": "United States"
+    }
   },
   {
     "date": "February 17, 2026",
@@ -5777,7 +6709,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 17, 2026",
@@ -5787,7 +6723,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "United States",
+      "team2": "Italy"
+    }
   },
   {
     "date": "February 17, 2026",
@@ -5847,7 +6787,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "United States",
+      "team2": "Great Britain"
+    }
   },
   {
     "date": "February 18, 2026",
@@ -5857,7 +6801,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Sweden",
+      "team2": "South Korea"
+    }
   },
   {
     "date": "February 18, 2026",
@@ -5867,7 +6815,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "China",
+      "team2": "Denmark"
+    }
   },
   {
     "date": "February 18, 2026",
@@ -5927,7 +6879,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 18, 2026",
@@ -5987,7 +6943,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "United States",
+      "team2": "Great Britain"
+    }
   },
   {
     "date": "February 18, 2026",
@@ -5997,7 +6957,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "China",
+      "team2": "Czechia"
+    }
   },
   {
     "date": "February 18, 2026",
@@ -6007,7 +6971,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Italy",
+      "team2": "Canada"
+    }
   },
   {
     "date": "February 18, 2026",
@@ -6017,7 +6985,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Norway",
+      "team2": "Switzerland"
+    }
   },
   {
     "date": "February 18, 2026",
@@ -6047,7 +7019,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "United States",
+      "team2": "Great Britain"
+    }
   },
   {
     "date": "February 18, 2026",
@@ -6057,7 +7033,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK, PEACOCK"
+    "broadcaster": "USA NETWORK, PEACOCK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 18, 2026",
@@ -6077,7 +7057,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 18, 2026",
@@ -6097,7 +7081,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 18, 2026",
@@ -6107,7 +7095,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Great Britain",
+      "team2": "Japan"
+    }
   },
   {
     "date": "February 18, 2026",
@@ -6117,7 +7109,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Switzerland",
+      "team2": "Denmark"
+    }
   },
   {
     "date": "February 18, 2026",
@@ -6127,7 +7123,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Canada",
+      "team2": "Italy"
+    }
   },
   {
     "date": "February 18, 2026",
@@ -6137,7 +7137,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "China",
+      "team2": "Sweden"
+    }
   },
   {
     "date": "February 18, 2026",
@@ -6187,7 +7191,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "NBC, PEACOCK"
+    "broadcaster": "NBC, PEACOCK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 18, 2026",
@@ -6207,7 +7215,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "CNBC"
+    "broadcaster": "CNBC",
+    "teams": {
+      "team1": "United States",
+      "team2": "Great Britain"
+    }
   },
   {
     "date": "February 18, 2026",
@@ -6227,7 +7239,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 18, 2026",
@@ -6247,7 +7263,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "Canada",
+      "team2": "Italy"
+    }
   },
   {
     "date": "February 18, 2026",
@@ -6257,7 +7277,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 18, 2026",
@@ -6307,7 +7331,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Norway",
+      "team2": "Canada"
+    }
   },
   {
     "date": "February 19, 2026",
@@ -6317,7 +7345,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "United States",
+      "team2": "Germany"
+    }
   },
   {
     "date": "February 19, 2026",
@@ -6327,7 +7359,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Sweden",
+      "team2": "Czechia"
+    }
   },
   {
     "date": "February 19, 2026",
@@ -6337,7 +7373,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Italy",
+      "team2": "Switzerland"
+    }
   },
   {
     "date": "February 19, 2026",
@@ -6437,7 +7477,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Canada",
+      "team2": "South Korea"
+    }
   },
   {
     "date": "February 19, 2026",
@@ -6447,7 +7491,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Switzerland",
+      "team2": "United States"
+    }
   },
   {
     "date": "February 19, 2026",
@@ -6457,7 +7505,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Great Britain",
+      "team2": "Italy"
+    }
   },
   {
     "date": "February 19, 2026",
@@ -6467,7 +7519,11 @@
     "is_live": false,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Japan",
+      "team2": "China"
+    }
   },
   {
     "date": "February 19, 2026",
@@ -6487,7 +7543,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 19, 2026",
@@ -6527,7 +7587,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": true,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 19, 2026",
@@ -6557,7 +7621,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 19, 2026",
@@ -6567,7 +7635,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 19, 2026",
@@ -6577,7 +7649,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": true,
-    "broadcaster": "USA NETWORK, PEACOCK"
+    "broadcaster": "USA NETWORK, PEACOCK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 19, 2026",
@@ -6607,7 +7683,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "CNBC"
+    "broadcaster": "CNBC",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 19, 2026",
@@ -6647,7 +7727,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 19, 2026",
@@ -6657,7 +7741,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": true,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 19, 2026",
@@ -6667,7 +7755,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": true,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 19, 2026",
@@ -6707,7 +7799,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "Switzerland",
+      "team2": "United States"
+    }
   },
   {
     "date": "February 20, 2026",
@@ -6747,7 +7843,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 20, 2026",
@@ -6757,7 +7857,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 20, 2026",
@@ -6777,7 +7881,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 20, 2026",
@@ -6797,7 +7905,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 20, 2026",
@@ -6817,7 +7929,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 20, 2026",
@@ -6877,7 +7993,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": true,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 20, 2026",
@@ -6917,7 +8037,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": false,
-    "broadcaster": "NBC, PEACOCK"
+    "broadcaster": "NBC, PEACOCK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 20, 2026",
@@ -6947,7 +8071,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": true,
-    "broadcaster": "CNBC"
+    "broadcaster": "CNBC",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 20, 2026",
@@ -6957,7 +8085,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 20, 2026",
@@ -6977,7 +8109,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 20, 2026",
@@ -6987,7 +8123,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": false,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 20, 2026",
@@ -7017,7 +8157,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": true,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 21, 2026",
@@ -7127,7 +8271,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": true,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 21, 2026",
@@ -7167,7 +8315,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": true,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 21, 2026",
@@ -7237,7 +8389,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": true,
-    "broadcaster": "CNBC, PEACOCK"
+    "broadcaster": "CNBC, PEACOCK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 21, 2026",
@@ -7267,7 +8423,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": true,
-    "broadcaster": "USA NETWORK, PEACOCK"
+    "broadcaster": "USA NETWORK, PEACOCK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 21, 2026",
@@ -7307,7 +8467,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": true,
-    "broadcaster": "CNBC"
+    "broadcaster": "CNBC",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 21, 2026",
@@ -7347,7 +8511,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": true,
-    "broadcaster": "CNBC"
+    "broadcaster": "CNBC",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 21, 2026",
@@ -7407,7 +8575,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": true,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 21, 2026",
@@ -7477,7 +8649,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": true,
-    "broadcaster": "PEACOCK"
+    "broadcaster": "PEACOCK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 22, 2026",
@@ -7497,7 +8673,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": true,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 22, 2026",
@@ -7507,7 +8687,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": true,
-    "broadcaster": "NBC"
+    "broadcaster": "NBC",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 22, 2026",
@@ -7547,7 +8731,11 @@
     "is_live": true,
     "is_replay": false,
     "is_medal_event": true,
-    "broadcaster": "NBC, PEACOCK"
+    "broadcaster": "NBC, PEACOCK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 22, 2026",
@@ -7577,7 +8765,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": true,
-    "broadcaster": "USA NETWORK"
+    "broadcaster": "USA NETWORK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 22, 2026",
@@ -7597,7 +8789,11 @@
     "is_live": false,
     "is_replay": true,
     "is_medal_event": true,
-    "broadcaster": "NBC, PEACOCK"
+    "broadcaster": "NBC, PEACOCK",
+    "teams": {
+      "team1": "__________",
+      "team2": "__________"
+    }
   },
   {
     "date": "February 22, 2026",
