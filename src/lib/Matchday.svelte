@@ -1,7 +1,7 @@
 <script>
   import Event from './Event.svelte';
   export let date = '';
-  export let events = /** @type {Array<{start_time: string, sport: string, event: string, is_live: boolean, is_replay: boolean, broadcaster: string}>} */ ([]);
+  export let events = /** @type {Array<{start_time: string, sport: string, event: string, is_live: boolean, is_replay: boolean, broadcaster: string, teams?: {team1: string, team2: string}}>} */ ([]);
 </script>
 
 <div class="matchday">
@@ -13,7 +13,8 @@
       event={event.event} 
       isLive={event.is_live} 
       isReplay={event.is_replay} 
-      broadcaster={event.broadcaster} />
+      broadcaster={event.broadcaster}
+      teams={event.teams} />
   {/each}
 </div>
 

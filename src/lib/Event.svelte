@@ -5,13 +5,20 @@
   export let isLive = false;
   export let isReplay = false;
   export let broadcaster = '';
+  export let teams = /** @type {{team1: string, team2: string} | undefined} */ (undefined);
+  
+  // Create display name with teams if available
+  // Skip teams if they contain underscores (placeholder for unknown teams)
+  $: displayEvent = teams && !teams.team1.includes('_') && !teams.team2.includes('_')
+    ? `${event} (${teams.team1} vs ${teams.team2})`.trim()
+    : event;
 </script>
 
 <div class="event">
   <div class="start-time">{startTime}</div>
   <div class="event-details">
     <div class="sport">{sport}</div>
-    <div class="event-name">{event}</div>
+    <div class="event-name">{displayEvent}</div>
     <div class="status">
       {#if isLive}
         <span>Live</span>
