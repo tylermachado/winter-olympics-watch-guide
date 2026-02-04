@@ -25,7 +25,9 @@ export function updateFilter(key: string, value: string | boolean) {
 }
 
 export function clearFilters() {
-  goto('/', { replaceState: true });
+  const currentPage = get(page);
+  const baseUrl = currentPage.url.pathname.split('/').slice(0, -1).join('/') || '/';
+  goto(baseUrl, { replaceState: true });
 }
 
 export const SPORTS = [

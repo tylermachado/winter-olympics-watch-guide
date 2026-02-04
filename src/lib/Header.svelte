@@ -62,7 +62,7 @@
             {#if $filters.sport || $filters.liveOnly || $filters.goldMedalOnly || $filters.usaOnly}
                 <button 
                     on:click={clearFilters}
-                    class="text-sm underline opacity-90 hover:opacity-100"
+                    class="px-3 py-1.5 rounded bg-primary-700 text-white text-sm border border-primary-600 hover:bg-primary-600 focus:outline-none focus:ring-2 focus:ring-primary-400 transition-colors"
                 >
                     Clear Filters
                 </button>
