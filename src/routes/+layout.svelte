@@ -7,7 +7,7 @@
 
 	let { children }: { children: Snippet } = $props();
 
-	const description = 'Watch guide for the Winter Olympics with schedules for USA viewers.';
+	const description = 'Watch guide for the Winter Olympics with schedules for  viewers with USA broadcasters.';
 </script>
 
 <svelte:head>
