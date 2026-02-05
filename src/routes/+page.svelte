@@ -12,10 +12,24 @@
   let observer: IntersectionObserver | null = null;
   let isScrolling = false;
   let scrollTimeout: ReturnType<typeof setTimeout> | null = null;
+  let hasScrolledToToday = false;
+  let isMounted = false;
 
   // Load data into store only when data.matchdays changes
   $: if (data.matchdays) {
     matchdays.set(data.matchdays);
+  }
+
+  // Auto-scroll to today when matchdays are loaded (only in browser)
+  $: if (isMounted && $matchdays.length > 0 && !hasScrolledToToday) {
+    hasScrolledToToday = true;
+    const todayId = findTodayMatchday();
+    if (todayId) {
+      // Use setTimeout to ensure DOM elements are rendered
+      setTimeout(() => {
+        scrollToDate(todayId);
+      }, 100);
+    }
   }
 
   // Update observed elements when filtered matchdays change
@@ -32,7 +46,26 @@
     });
   }
 
+  function findTodayMatchday(): string | null {
+    const today = new Date();
+    const todayString = today.toLocaleDateString('en-US', { 
+      month: 'long', 
+      day: 'numeric', 
+      year: 'numeric' 
+    });
+    
+    console.log('Today detected as:', todayString);
+    console.log('Available matchday IDs:', $matchdays.map(m => m.id));
+    console.log('Available matchday dates:', $matchdays.map(m => m.date));
+    
+    const todayMatchday = $matchdays.find(matchday => matchday.id === todayString);
+    console.log('Found today matchday:', todayMatchday);
+    return todayMatchday ? todayMatchday.id : null;
+  }
+
   onMount(() => {
+    isMounted = true;
+    
     observer = new IntersectionObserver(
       (entries) => {
         // Skip observer updates during programmatic scrolling
@@ -85,7 +118,16 @@
         clearTimeout(scrollTimeout);
       }
       
-      element.scrollIntoView({ behavior: 'smooth' });
+      // Calculate position to place element about 1/3 down the viewport
+      const elementTop = element.getBoundingClientRect().top + window.scrollY;
+      const viewportHeight = window.innerHeight;
+      const offset = viewportHeight / 3;
+      const scrollPosition = elementTop - offset;
+      
+      window.scrollTo({ 
+        top: scrollPosition, 
+        behavior: 'smooth' 
+      });
       
       // Re-enable observer after scroll completes
       // Smooth scroll typically takes 500-1000ms
