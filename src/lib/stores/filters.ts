@@ -44,6 +44,6 @@ export const SPORTS = [
   'Short Track Speed Skating',
   'Skeleton',
   'Ski Jumping',
-  'Snowboard',
+  'Snowboarding',
   'Speed Skating'
 ] as const;
